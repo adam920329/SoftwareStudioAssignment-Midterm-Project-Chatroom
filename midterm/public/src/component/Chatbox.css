@@ -1,0 +1,73 @@
+#chatbox_col1{
+	background: #ff4f4f;
+	width:inherit;
+	height:10%;
+	align-items: center;
+}
+#channel-name{
+	text-align:left;
+	margin-left:10px;
+	font-size: 25px;
+	font-weight: bold;
+	color:rgb(255, 255, 255);
+}
+#chatbox_col2{
+	background: linear-gradient(-45deg, #9795f0,#c49bfd,#9650f9,#fbc8d4);
+	width:inherit;
+	height:83%;
+	overflow-y: scroll;
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#chatbox_col3{
+	background: #ffff3d;
+	width:inherit;
+	height:7%;
+	display: inline-block;
+	justify-content: center;
+	align-content: flex-star;
+}
+
+#chattxt{
+    background: #ffffff;
+	width:80%;
+	height:inherit;
+	display: inline-block;
+	position: relative;
+	bottom: 5px;
+	left:5px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-right: 1px;
+	margin-left: 5px;
+}
+#btnsend{
+    background: url(./img/txtoutput.png);
+	background-color: #30a3dc;
+	background-position:center;
+	background-size :cover;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: relative;
+	left:10px;
+	top:5px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-right: 1px;
+	margin-left: 5px;
+}
+#btnsend:hover{
+	background-color: #66bce6;
+}

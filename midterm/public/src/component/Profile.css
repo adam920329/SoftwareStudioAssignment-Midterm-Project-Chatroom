@@ -1,0 +1,28 @@
+#profile_col1{
+    display:flex; 
+}
+#profile_col1{
+    display:flex; 
+    height:20%;
+}
+#profile_col1{
+    display:flex; 
+    height:20%;
+}
+#displayname{
+    margin:0;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#email{
+    margin:0;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#img{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}

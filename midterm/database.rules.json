@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "Channel_list":{
+        ".write": "auth != null",
+        ".read": "auth != null"
+    },
+    "User_list":{
+      ".write": "auth != null",
+      ".read": "auth != null"
+  }
+}
+}

@@ -1,0 +1,23 @@
+#channel_col1{
+	background-color: rgba(252, 203, 96, 0.884);
+	width:inherit;
+	height:8%;
+}
+#channel_col2{
+	width:inherit;
+	height:92%;
+	overflow-y: scroll;
+}
+#chatroom_name{
+	margin: 0 auto;
+	font-size: 25px;
+	font-weight: bold;
+	color:rgb(255, 255, 255);
+	text-align:center;
+	display: inline-flex;
+	vertical-align:middle;
+	display:flex; 
+	justify-content: center;
+	position: relative;
+	top:5px;
+}
